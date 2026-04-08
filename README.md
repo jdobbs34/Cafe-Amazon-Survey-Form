@@ -1,3 +1,3 @@
-# Configuration for cafe-amazon-survey-form
+# Cafe Amazon Survey Form
 
 https://cafe-amazon-survey-form.netlify.app/
