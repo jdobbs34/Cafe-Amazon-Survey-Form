@@ -32,12 +32,12 @@ body {
 }
 
 #description {
-  color: black;
-  margin-top: 5px;
-  margin-bottom: 30px;
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 30px;
   /* text-shadow: 0 50px 600px rgb(0, 0, 0); */
 }
 
@@ -47,80 +47,82 @@ body {
   width: 700px;
   height: 120px;
   margin: 1px auto 0px auto;
-  border-radius: 5px 5px 0 0;
   padding: 0 10px 10px 15px;
+  border-radius: 5px 5px 0 0;
 }
 
 form {
+  background-color: #8fa5a3;
+  font-size: larger;
   width: 800px;
   height: 1125px;
   margin: 0 auto 0 auto;
-  background-color: #8fa5a3;
-  display: flex;
-  flex-direction: column;
   padding: 50px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  font-size: larger;
+  display: flex;
+  flex-direction: column;
 }
 
 input {
   font-size: medium;
   text-align: left;
-  padding: 10px;
   margin-bottom: 20px;
+  padding: 10px;
   border: 1px solid white;
   border-radius: 5px;
+  /* width: 700px; */
 }
 
 label {
   text-align: left;
   margin-bottom: 5px;
+  /* display: block; */
 }
 
 select {
   font-size: medium;
   text-align: left;
-  padding: 10px;
   margin-bottom: 30px;
+  padding: 10px;
   border: 1px solid white;
   border-radius: 5px;
+  /* width: 700px; */
 }
 
 .radio-group,
 .checkbox-group {
-  margin-bottom: 30px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; */
+  margin-bottom: 30px;
+
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 5px;
   min-width: 1.25rem;
   min-height: 1.25rem;
+  margin: 5px;
 }
 
 #comments {
-  font-size: 17px;
   text-align: left;
-  padding: 10px;
+  font-size: 17px;
+  height: 200px;
+  width: 680px;
   margin-bottom: 30px;
+  padding: 10px;
   border: 1px solid white;
   border-radius: 1px;
-  height: 200px;
-  width: 675px;
 }
 
 button {
-  font-size: medium;
   background-color: #4caf50;
   color: white;
+  font-size: large;
+  width: 680px;
   padding: 10px;
   border: none;
   cursor: pointer;
-  font-size: large;
-  width: 700px;
-  border: 1px solid #4caf50;
 }
