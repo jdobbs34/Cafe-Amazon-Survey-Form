@@ -42,7 +42,7 @@ body {
 }
 
 .header {
-  background-color: #02590f;
+  background-color: rgba(6, 78, 22, 0.884);
   text-align: center;
   width: 700px;
   height: 120px;
@@ -117,7 +117,7 @@ input[type="checkbox"] {
   border-radius: 1px;
 }
 
-button {
+#submit {
   background-color: #4caf50;
   color: white;
   font-size: large;
